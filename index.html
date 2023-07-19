@@ -8,27 +8,34 @@
   
   <title>Frontend Mentor | News homepage</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css"
 </head>
 <body>
+  <header class="navigation-bar">
+    <img src="./assets/images/logo.svg" alt="News Website Logo" class="site-logo">
+    <nav class="navigation-pages">      
+      <a href="#home">Home</a>
+      <a href="#new">New</a>
+      <a href="#popular">Popular</a>
+      <a href="#trending">Trending</a>
+      <a href="#categories">Categories</a>
+    </nav>
+  </header>
 
-  Home
-  New
-  Popular
-  Trending
-  Categories
+  <main class="featured">
+    <section class = "feature-img">
+      <figure>
+        <img src="./assets/images/image-web-3-desktop.jpg" alt="Headline Image">
+      </figure>
+    </section>
 
-  The Bright Future of Web 3.0?
-
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
-
-  Read more
-
+    <section class="headline-txt">
+      <h1>The Bright Future of Web 3.0?</h1>
+      <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise? </p>
+    <button class="read-more">Read more</button>
+  </section>
+  </main>
+  <aside>
   New 
 
   Hydrogen VS Electric Cars
@@ -51,6 +58,7 @@
   03
   The Growth of Gaming
   How the pandemic has sparked fresh opportunities.
+  </aside>
   
   <footer>
     <div class="attribution">
