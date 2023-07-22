@@ -13,57 +13,96 @@
 <body>
   <header class="navigation-bar">
     <img src="./assets/images/logo.svg" alt="News Website Logo" class="site-logo">
-    <nav class="navigation-pages">      
-      <a href="#home">Home</a>
-      <a href="#new">New</a>
-      <a href="#popular">Popular</a>
-      <a href="#trending">Trending</a>
-      <a href="#categories">Categories</a>
+    <nav>
+      <ul class="nav-links">
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#new">New</a>
+        </li>
+        <li> 
+          <a href="#popular">Popular</a>
+        </li>
+        <li>
+          <a href="#trending">Trending</a>
+        </li>
+        <li> 
+          <a href="#categories">Categories</a>
+        </li>
+      </ul>
     </nav>
   </header>
 
-  <main class="featured">
-    <section class = "feature-img">
-      <figure>
-        <img src="./assets/images/image-web-3-desktop.jpg" alt="Headline Image">
+  <main class="main-container">
+    <section class = "headline-section">
+      <figure class = "headline-img">
+        <img src="./assets/images/image-web-3-desktop.jpg" alt="Featured Image">
       </figure>
+      <div class="headline-info-container">
+        <h1>The Bright Future of Web 3.0?</h1>
+        <div class="headline-details-container">
+          <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise? </p>
+          <button class="headline-read-more-btn">Read more</button>
+        </div>
+      </div>
     </section>
 
-    <section class="headline-txt">
-      <h1>The Bright Future of Web 3.0?</h1>
-      <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise? </p>
-    <button class="read-more">Read more</button>
+    <section class = "new-blogs-panel">
+      <h1 class = "new-blog-title">New</h1>
+        <div class="new-article-item">
+          <h2>Hydrogen VS Electric Cars</h2>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        <div class="new-article-item">
+          <h2>The Downsides of AI Artistry</h2>
+          <p>What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+        <div class="new-article-item">
+          <h2>Is VC Funding Drying Up?</h2>
+          <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+    </section>
+  <section class="top-blogs">
+    <div class="top-blog-item">
+      <figure class="top-blog-img-container">
+        <img src="./assets/images/image-retro-pcs.jpg">
+      </figure>
+      <div class="top-blog-info"> 
+        <h1>01</h1>
+        <h2>Reviving Retro PCs</h2>
+        <p>What happens when old PCs are given modern upgrades?</p>
+      </div>
+    </div>
+    <div class="top-blog-item">
+      <figure class="top-blog-img-container">
+        <img src="./assets/images/image-top-laptops.jpg">
+      </figure>
+      <div class="top-blog-info">
+        <h1>02</h1>
+        <h2>Top 10 Laptops of 2022</h2>
+        <p>Our best picks for various needs and budgets.</p>
+      </div>
+    </div>
+    <div class="top-blog-item">
+      <figure class="top-blog-img-container">
+        <img src="./assets/images/image-gaming-growth.jpg">
+      </figure>
+      <div class="top-blog-info">
+        <h1>03</h1>
+        <h2>The Growth of Gaming</h2>
+        <p>How the pandemic has sparked fresh opportunities.</p>
+      </div>
+    </div>
   </section>
+
   </main>
-  <aside>
-  New 
-
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
-
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
-
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
-
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
-
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
-
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
-  </aside>
   
   <footer>
     <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="https://github.com/gelolmdrd" target="_blank">Gelo La Madrid</a>.
+      <p>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/gelolmdrd" target="_blank">Gelo La Madrid</a>.
+      </p>
     </div>
   </footer>
 </body>
