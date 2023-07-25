@@ -8,13 +8,11 @@ body {
   background-color: rgb(255, 255, 255);
   font-size: 15px;
   font-family: 'Inter', sans-serif;
-  margin-top: 40px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 5% 10%;
+  margin-bottom: 0;
 }
 
 .navigation-bar {
-  background-color: rgb(255, 255, 255);
   margin-bottom: 3rem;
   display: flex;
   align-items: center;
@@ -100,6 +98,7 @@ body {
 .headline-details-container p{
   margin: 0px;
   font-size: 0.9rem;
+  font-weight: 300;
   line-height: 1.5rem;
 }
 
@@ -137,7 +136,7 @@ body {
 }
 
 .new-article-item {
-  border-bottom: 2px solid hsl(36, 100%, 99%);  
+  border-bottom: 1px solid hsl(36, 100%, 99%);  
   align-items: center;
   padding: 20px 0;
   font-size: 0.9rem;
@@ -189,6 +188,7 @@ body {
   justify-content: space-between;
   margin-left: 1rem;
   height: 127px;
+  cursor: default;
 }
 
 .top-blog-info h1{
@@ -200,6 +200,12 @@ body {
 .top-blog-info h2{
   margin: 0;
   font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.top-blog-info h2:hover{
+  color:  hsl(5, 85%, 63%);;
 }
 
 .top-blog-info p{
